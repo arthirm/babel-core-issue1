@@ -1,0 +1,12 @@
+{
+  "extends": "@tsconfig/node20/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "declarationMap": false,
+    "lib": ["ES2021", "DOM"]
+  },
+  "include": ["packages/**/*.ts"],
+  "exclude": ["./dist/**/*.ts", "node_modules"]
+}
